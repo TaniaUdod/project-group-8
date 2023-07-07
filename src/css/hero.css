@@ -21,12 +21,13 @@
 .hero-container {
     display: flex;
     flex-direction: column;
-    max-width: 1280px;
+    max-width: 365px;
     min-width: 320px;
     margin: 0 auto;
 }
 
 .hero-face-list{
+    position: relative;
     display: flex;
     margin-top: 48px;
     margin-bottom: 14px;
@@ -38,8 +39,8 @@
 
 
 .hero-face-img-span {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: var(--hero-white);
     color: var(--hero-black);
@@ -69,53 +70,45 @@
 }
 
 .hero-div-face{
-    position: relative;
+    
 }
 
 .hero-div-face-one {
     position: absolute;
-    left: 35px;
+    left: 28px;
 }
 
 .hero-div-face-two {
     position: absolute;
-    left: 64px;
+    left: 57px;
 }
 
 .hero-div-face-three{
     position: absolute;
-    left: 92px;
+    left: 85px;
 }
 
 
 
 .hero-titel {
-    color: #FFF;
     font-size: 40px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -1.6px;
     text-transform: uppercase;
     margin-bottom: 14px;
-    max-width: 335px;
 }
 
-.hero-titel-span{
+.hero-titel > span{
     color: #EAF7E5;
     font-style: italic;
 
 }
 .hero-text {
-    font-family: DM Sans;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: -0.56px;
     margin-bottom: 20px;
-    max-width: 335px;
+    line-height: 1.2;
+        
 }
 
 
