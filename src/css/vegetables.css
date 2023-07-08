@@ -44,6 +44,9 @@
   padding-top: 40px;
   padding-bottom: 20px;
 }
+.veg-menu-item.span {
+  display: none;
+}
 .veg-menu-title {
   padding-left: 20px;
   font-size: 24px;
@@ -71,7 +74,7 @@
     margin-bottom: 100px;
   }
   .veg-container {
-    max-width: 704px;
+    max-width: 734px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -89,6 +92,72 @@
     line-height: 24px;
     letter-spacing: -0.72px;
   }
+  .veg-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+  }
+  .veg-menu-item {
+    width: calc((100% - 20px) / 2);
+    margin-bottom: 0;
+    padding-top: 64px;
+    padding-bottom: 24px;
+  }
   .veg-img {
+    padding: 10px 20px 24px 11px;
+  }
+  .veg-img-cart {
+    max-width: 321px;
+    height: 261px;
+  }
+  .veg-menu-title {
+    padding-left: 24px;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1.12px;
+  }
+  .veg-menu-text {
+    padding-left: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+  }
+
+  .veg-menu-price {
+    padding-left: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .vegetables {
+    margin-bottom: 124px;
+  }
+  .veg-container {
+    max-width: 1245px;
+  }
+  .veg-menu-item.span {
+    display: block;
+  }
+  .veg-menu-list {
+    gap: 24px;
+  }
+  .veg-menu-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .veg-title {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+  }
+  .veg-menu-title {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -1.28px;
+  }
+  .veg-img {
+    padding: 1px 34px 24px 34px;
   }
 }
