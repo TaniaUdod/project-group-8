@@ -1,8 +1,40 @@
 <section class="call">
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt architecto
-    quibusdam excepturi modi nobis omnis suscipit impedit ad, veniam repellat
-    exercitationem autem ratione, blanditiis ea sint quas voluptatem dolor
-    praesentium.
-  </p>
+  <div class="container call-container">
+    <div class="call-div">
+      <h2 class="call-title">Fresh Harvest Box has got you covered</h2>
+      <p class="call-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+
+      <form class="call-form">
+        <label for="user-tel"></label>
+
+        <div class="input-wrap">
+          <input
+            class="call-input"
+            name="user-tel"
+            id="user-tel"
+            type="tel"
+            placeholder="+380 ()"
+            pattern="\+380\d{9}"
+            required
+          />
+          <button class="call-btn" type="submit">Recall</button>
+        </div>
+      </form>
+    </div>
+    <div class="call-img-div">
+      <img
+        class="call-img"
+        src="../img/call/img-girl-mobile-min.png"
+        alt="girl with broccoly"
+        srcset="
+          ../img/call/img-girl-mobile-min.png    1x,
+          ../img/call/img-girl-mobile-2x-min.png 2x
+        "
+      />
+    </div>
+  </div>
 </section>
