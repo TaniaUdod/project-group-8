@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -15,20 +16,6 @@
 @import url('./modal.css');
 
 :root {
-  font-family: 'DM Sans', sans-serif;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #141414;
-  background-color: #FFFFFF;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-
   --A1C487: #A1C487;
   --EAF7E5: #EAF7E5;
   --FC8A11: #FC8A11;
@@ -36,4 +23,14 @@
   --F3F3F3: #F3F3F3;
 
   --transition: 250ms cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #141414;
+  background-color: #FFFFFF;
 }
