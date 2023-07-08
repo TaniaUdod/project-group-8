@@ -1,15 +1,18 @@
-.call {
-}
-
 .call-container {
   min-width: 320px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
 }
-.call-text-div {
+.call-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .call-title {
   color: #141414;
@@ -20,7 +23,7 @@
   line-height: 1.17;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  max-width: 323px;
+  max-width: 322px;
   margin-bottom: 20px;
 }
 .call-text {
@@ -31,19 +34,27 @@
   line-height: 1.29;
   letter-spacing: -0.04em;
   max-width: 321px;
+  margin-bottom: 40px;
 }
-.form-div {
-}
+
 .call-form {
-  max-width: 100%;
+  width: 100%;
+}
+.input-wrap {
+  display: flex;
+  position: relative;
 }
 .call-input {
+  display: block;
   width: 100%;
   border-radius: 100px;
   border: 1px solid rgb(20, 20, 20, 0.3);
   height: 48px;
   background-color: transparent;
-  padding-left: 24px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  padding: 15px 106px 15px 24px;
 }
 .call-input::placeholder {
   color: #c1bdbd;
@@ -58,21 +69,30 @@
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.04em;
-  text-transform: capitalize;
   border-radius: 100px;
   background: var(--FC8A11);
   border: none;
   padding: 15px 35px;
-  min-width: 35px;
   height: 48px;
-  margin: 0 auto;
+  width: 105px;
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  right: 0;
 }
-.call-img-bg {
+.call-img-div {
+  margin-bottom: 80px;
   border-radius: 40px;
   background-color: var(--FAF3E7);
-  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Csymbol id='icon-oval' viewBox='0 0 85 32'%3E%3Cpath d='M42.553 22.468c18.331 0 33.191-2.896 33.191-6.468s-14.86-6.468-33.191-6.468-33.191 2.896-33.191 6.468 14.86 6.468 33.191 6.468z'%3E%3C/path%3E%3C/symbol%3E%3C/defs%3E%3C/svg%3E");
-  background-repeat: repeat;
-  background-position: right 30px bottom 15px;
-  background-size: 5px 5px;
-  max-width: 335px; */
+  background-image: radial-gradient(
+    circle at 30px 20px,
+    rgba(161, 196, 135, 0.3) 3px,
+    transparent 0
+  );
+  background-size: 43px 43px;
+  max-width: 335px;
+}
+.call-img {
+  margin-top: 31px;
+  width: 100%;
 }

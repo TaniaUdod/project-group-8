@@ -1,34 +1,39 @@
 <section class="call">
   <div class="container call-container">
-    <div class="call-text-div">
+    <div class="call-div">
       <h2 class="call-title">Fresh Harvest Box has got you covered</h2>
       <p class="call-text">
         Our boxes are packed with delicious, nutritious vegetables, perfect for
         anyone looking to eat healthier or support local farmers. Order your box
         today and start enjoying the best that nature has to offer!
       </p>
-    </div>
-    <div class="form-div">
+
       <form class="call-form">
         <label for="user-tel"></label>
 
-        <input
-          class="call-input"
-          name="user-tel"
-          id="user-tel"
-          type="tel"
-          placeholder="+380 ()"
-          required
-        />
-        <button class="call-btn" type="submit">Recall</button>
+        <div class="input-wrap">
+          <input
+            class="call-input"
+            name="user-tel"
+            id="user-tel"
+            type="tel"
+            placeholder="+380 ()"
+            pattern="\+380\d{9}"
+            required
+          />
+          <button class="call-btn" type="submit">Recall</button>
+        </div>
       </form>
     </div>
-    <div class="call-img-bg">
+    <div class="call-img-div">
       <img
         class="call-img"
-        src="../img/call/img-girl.png"
+        src="../img/call/img-girl-mobile-min.png"
         alt="girl with broccoly"
-        srcset="../img/call/img-girl.png 1x, ../img/call/img-girl-2x.png 2x"
+        srcset="
+          ../img/call/img-girl-mobile-min.png    1x,
+          ../img/call/img-girl-mobile-2x-min.png 2x
+        "
       />
     </div>
   </div>
