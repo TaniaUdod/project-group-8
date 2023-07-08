@@ -1,10 +1,10 @@
 .vegetables {
   background-color: #fff;
-  margin: 80px auto;
+  margin: 40px auto;
 }
 
 .veg-container {
-  max-width: 335px;
+  max-width: 365px;
 }
 
 .veg-title {
@@ -28,17 +28,25 @@
   margin-bottom: 40px;
 }
 .veg-menu {
-  background-color: #eaf7e5;
-  border-radius: 15px;
-  margin-bottom: 20px;
 }
+.veg-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 18px 22px 18px;
+}
+
 .veg-menu-list {
 }
 .veg-menu-item {
+  background-color: #eaf7e5;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 .veg-menu-title {
   padding-left: 20px;
-  padding-top: 40px;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -53,22 +61,9 @@
 }
 .veg-menu-content {
   padding: 36px 18px 22px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.veg-menu-img {
-}
-.veg-menu-icon {
-  max-width: 195px;
-  max-height: 38px;
-  fill: #141414;
-  opacity: 0.10000000149011612;
-  filter: blur(13.591408729553223px);
 }
 .veg-menu-price {
   padding-left: 20px;
-  padding-bottom: 20px;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
