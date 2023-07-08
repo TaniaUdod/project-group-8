@@ -92,18 +92,9 @@ header {
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .header-nav {
     display: flex;
   }
@@ -178,14 +169,6 @@ header {
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .header-nav {
     display: flex;
   }
