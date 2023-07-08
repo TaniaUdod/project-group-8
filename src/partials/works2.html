@@ -1,5 +1,5 @@
-<div class="container">
-  <section class="works2">
+<section class="works2">
+  <div class="container works2-container">
     <div class="works2-text-container">
       <h2 class="works2-title">3 Easy Steps for Buying Fresh Vegetables</h2>
       <ol class="works2-list">
@@ -24,11 +24,23 @@
         </li>
       </ol>
     </div>
-    <img
-      srcset="/img/works2/works2.png 1x, /img/works2/works2-2x.png 2x"
-      src="/img/works2/img-works2.png"
-      alt="girl"
-      class="works2-img"
-    />
-  </section>
-</div>
+    <picture class="works2-img">
+      <source
+        media="(max-width: 767px)"
+        srcset="/img/works2/works2.png 1x, /img/works2/works2-2x.png 2x"
+      />
+      <source
+        media="(max-width: 1279px)"
+        srcset="/img/works2/works2-tab.png 1x, /img/works2/works2-tab-2x.png 2x"
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          /img/works2/works2-desk.png    1x,
+          /img/works2/works2-desk-2x.png 2x
+        "
+      />
+      <img src="/img/works2/works2.png" alt="GIRL" />
+    </picture>
+  </div>
+</section>
