@@ -140,6 +140,7 @@
 
 .hero-bg-div{
     display: flex;
+    position: relative;
 
 }
 .hero-bg-img{
@@ -149,8 +150,8 @@
 }
 .hero-bg-figure{
     position: absolute;
-    left: 220px;
-    top: 546px;
+    left: 75px;
+    top: 30px;
     width: 186px;
     height: 280px;
     transform: rotate(-105deg);
