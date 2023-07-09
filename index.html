@@ -13,8 +13,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-group-8/assets/index-058ace95.js"></script>
-    <link rel="stylesheet" href="/project-group-8/assets/index-cb0e251f.css">
+    <script type="module" crossorigin src="/project-group-8/assets/index-4b6f3a76.js"></script>
+    <link rel="stylesheet" href="/project-group-8/assets/index-be62dcbd.css">
   </head>
   <body>
     <header>
@@ -444,15 +444,25 @@
       </form>
     </div>
     <div class="call-img-div">
-      <img
-        class="call-img"
-        src="../img/call/img-girl-mobile-min.png"
-        alt="girl with broccoly"
-        srcset="
-          ../img/call/img-girl-mobile-min.png    1x,
-          ../img/call/img-girl-mobile-2x-min.png 2x
-        "
-      />
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="/project-group-8/assets/img-girl-mobile-min-d2103030.png 1x, /project-group-8/assets/img-girl-mobile-2x-min-1259f2bf.png 2x"
+        />
+        <source
+          media="(max-width: 1279px)"
+          srcset="/project-group-8/assets/img-girl-tablet-min-6d64d751.png 1x, /project-group-8/assets/img-girl-tablet-2x-min-a31a63fa.png 2x"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/project-group-8/assets/img-girl-desktop-min-7e90d41f.png 1x, /project-group-8/assets/img-girl-desktop-2x-min-56df8b40.png 2x"
+        />
+        <img
+          class="call-img"
+          src="/project-group-8/assets/img-girl-mobile-min-d2103030.png"
+          alt="girl with broccoly"
+        />
+      </picture>
     </div>
   </div>
 </section>
