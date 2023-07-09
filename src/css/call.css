@@ -17,7 +17,7 @@
 .call-title {
   color: #141414;
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.17;
@@ -29,7 +29,7 @@
 .call-text {
   color: #141414;
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.04em;
@@ -55,7 +55,9 @@
   line-height: 1.29;
   letter-spacing: -0.04em;
   padding: 15px 106px 15px 24px;
+  outline: none;
 }
+
 .call-input::placeholder {
   color: #c1bdbd;
   font-size: 14px;
@@ -70,7 +72,7 @@
   line-height: 1.29;
   letter-spacing: -0.04em;
   border-radius: 100px;
-  background: var(--FC8A11);
+  background-color: var(--FC8A11);
   border: none;
   padding: 15px 35px;
   height: 48px;
@@ -80,6 +82,7 @@
   z-index: 2;
   right: 0;
 }
+
 .call-img-div {
   margin-bottom: 80px;
   border-radius: 40px;
@@ -94,5 +97,72 @@
 }
 .call-img {
   margin-top: 31px;
-  width: 100%;
+}
+
+/* MEDIA */
+@media screen and (min-width: 768px) {
+  .call-container {
+    min-width: 768px;
+    padding: 0 32px;
+    gap: 80px;
+  }
+  .call-title {
+    font-size: 40px;
+    line-height: 1.1;
+    max-width: 524px;
+  }
+  .call-text {
+    font-size: 18px;
+    line-height: 1.33;
+    max-width: 499px;
+  }
+  .call-form {
+    width: 350px;
+  }
+  .call-img-div {
+    margin-bottom: 173px;
+    max-width: 704px;
+  }
+  .call-img {
+    max-width: 629px;
+    margin-top: 17px;
+    margin-left: 37px;
+    margin-right: 38px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .call-container {
+    min-width: 1216px;
+    flex-direction: row;
+    gap: 77px;
+    margin-bottom: 124px;
+  }
+  .call-div {
+    width: 614px;
+    align-items: baseline;
+  }
+  .call-title {
+    font-size: 48px;
+    line-height: 1.04;
+    max-width: 615px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .call-text {
+    text-align: left;
+    max-width: 523px;
+    margin-bottom: 80px;
+  }
+  .call-img-div {
+    margin-bottom: 0;
+    max-width: 525px;
+  }
+
+  .call-img {
+    width: 100%;
+    margin-top: 37px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
