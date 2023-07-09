@@ -143,9 +143,9 @@
   flex-wrap: wrap;
 }
 
-.hero-nav-item {
+/* .hero-nav-item {
   transition: var(--transition);
-}
+} */
 
 .hero-nav-link {
   height: 28px;
@@ -160,14 +160,14 @@
   padding: 8px 14px;
   display: flex;
   align-items: center;
+  transition: var(--transition);
 }
 
 .hero-nav-link:hover,
 .hero-nav-link:focus,
 .hero-nav-link:active {
-  background-color: hsla(103, 53%, 93%, 1);
+  background-color: #F9F7F4;
   color: black;
-  border: none;
 }
 
 /* Tablett */
