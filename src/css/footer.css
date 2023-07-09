@@ -125,6 +125,9 @@ gap: 166px;
     .footer-nav {
       margin-top: 160px;
     }
+    .footer-adress {
+      text-align: left;
+    }
     .footer-container {
         display: inline-flex;
         /* width: 768px; */
