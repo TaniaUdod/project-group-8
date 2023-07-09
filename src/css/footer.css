@@ -87,7 +87,7 @@
     } */
   .footer-container {
     display: flex;
-    /* display: inline-flex; */
+    display: inline-flex;
     /* width: 768px; */
     gap: 171px;
     /* justify-content: center; */
@@ -126,7 +126,7 @@ gap: 166px;
       margin-top: 160px;
     }
     .footer-container {
-        /* display: inline-flex; */
+        display: inline-flex;
         /* width: 768px; */
         /* gap: 171px;
         justify-content: center; */
