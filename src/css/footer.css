@@ -1,15 +1,16 @@
 .footer {
-    padding: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #eaf7e5;
   text-align: center;
 }
 .footer-container {
-  
+  overflow: hidden;
 }
 
 .footer-image {
-  margin: 0 auto;
-  padding-top: 80px;
+  /* margin: 0 auto;
+  padding-top: 80px; */
 }
 .footer-logo {
   margin-top: 20px;
@@ -98,10 +99,10 @@
   .footer-container-right {
   }
   .footer-soc {
-    margin-top: 77px;
+    margin-top: 8px;
   }
   .footer-nav-item {
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
   }
   .footer-adress-item {
     /* text-align: left; */
@@ -118,7 +119,7 @@
     .footer-container-left {
         /* display: flex; */
     }
-    .footer-ghj{
+    .footer-team{
 display: flex;
 gap: 166px;
     }
