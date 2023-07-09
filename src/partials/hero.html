@@ -1,91 +1,153 @@
 <section class="hero">
   <div class="container hero-container">
+    <div class="hero-div-for-desk">
+      <div class="hero-face-list">
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ../img/hero/mob-face1-1x.png 1x,
+              ../img/hero/mob-face1-2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 1279px)"
+            srcset="
+              ../img/hero/tab-face1-1x.png,
+              ../img/hero/tab-face1-2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/hero/desk-face1-1x.png 1x,
+              ../img/hero/desk-face1-2x.png 2x
+            "
+          />
+          <img src="../img/hero/mob-face1-1x.png" alt="GIRL" />
+        </picture>
 
-    <div class="hero-face-list">
-     
-      <div class="hero-div-face">
-        <img  class="hero-face-img" 
-              width="44px" 
-              height="44px" 
-              srcset="../img/hero/mob-face1-2x.png 2x ../img/hero/mob-face1-1x.png 1x " 
-              src="../img/hero/mob-face1-1x.png" 
-              alt="face1" >
+        <picture class="hero-div-face-one">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ../img/hero/mob-face2-1x.png 1x,
+              ../img/hero/mob-face2-2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 1279px)"
+            srcset="
+              ../img/hero/tab-face2-1x.png,
+              ../img/hero/tab-face2-2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/hero/desk-face2-1x.png 1x,
+              ../img/hero/desk-face2-2x.png 2x
+            "
+          />
+          <img src="../img/hero/mob-face1-1x.png" alt="GIRL" />
+        </picture>
+
+        <picture class="hero-div-face-two">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ../img/hero/mob-face3-1x.png 1x,
+              ../img/hero/mob-face3-2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 1279px)"
+            srcset="
+              ../img/hero/tab-face3-1x.png,
+              ../img/hero/tab-face3-2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/hero/desk-face3-1x.png 1x,
+              ../img/hero/desk-face3-2x.png 2x
+            "
+          />
+          <img src="../img/hero/mob-face1-1x.png" alt="GIRL" />
+        </picture>
+
+        <div class="hero-div-face-three">
+          <span class="hero-face-img-span">
+            <p class="hero-face-img-text">
+              2K<span class="hero-text-reviews">reviews</span>
+            </p>
+          </span>
+        </div>
       </div>
 
-      <div class="hero-div-face-one">
-        <img 
-              class="hero-face-img" 
-              width="44px" 
-              height="44px" 
-              srcset="../img/hero/mob-face2-2x.png 2x ../img/hero/mob-face2-1x.png 1x " 
-              src="../img/hero/mob-face2-1x.png" 
-              alt="face2">
-      </div>
+      <h1 class="hero-titel">
+        organic <span class="hero-titel-span">vegetables </span> to your diet
+        today!
+      </h1>
+      <p class="hero-text">
+        Our expertly curated vegetable baskets are made with the freshest,
+        highest quality vegetables available. Fresh Harvest Box has got you
+        covered. Fresh, high-quality vegetables in expertly curated vegetable
+        baskets delivered to you.
+      </p>
 
-      <div class="hero-div-face-two">
-        <img 
-              class="hero-face-img" 
-              width="44px" 
-              height="44px" 
-              srcset="../img/hero/mob-face3-1x.png 1x ../img/hero/face3-2x 2x" 
-              src="../img/hero/mob-face3-1x.png" 
-              alt="face3">
-      </div>
-
-      <div class="hero-div-face-three">
-        <span class="hero-face-img-span">
-          <p class="hero-face-img-text">2K<span class="hero-text-reviews">reviews</span></p>
-        </span>
-      </div>
-
+      <button class="hero-btn" type="button" data-menu-open>SHOP NOW</button>
     </div>
 
-    <h1 class="hero-titel">organic <span class="hero-titel-span">vegetables </span>to your diet today!</h1>
-    <p class="hero-text">
-      Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available. Fresh
-      Harvest
-      Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.
-    </p>
+    <div class="hero-div-for-desk-second">
+      <!-- background img!!! -->
+      <picture class="hero-bg-div">
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/hero/mob-hero-img-1x.png 1x,
+            ../img/hero/mob-hero-img-2x.png 2x
+          "
+        />
+        <source
+          media="(max-width: 1279px)"
+          srcset="
+            ../img/hero/tab-hero-img-1x.png 1x,
+            ../img/hero/tab-hero-img-2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/hero/desk-hero-img-1x.png 1x,
+            ../img/hero/desk-hero-img-2x.png 2x
+          "
+        />
+        <img src="../img/hero/mob-hero-img-1x.png" alt="girl-with-latuck" />
+      </picture>
 
-    <button class="hero-btn" type="button" data-menu-open>SHOP NOW</button>
+      <!-- Navigation pannel -->
 
+      <nav class="hero-nav">
+        <ul class="hero-nav-list">
+          <li class="hero-nav-item">
+            <a class="hero-nav-link" href="#organic">#organic</a>
+          </li>
 
+          <li class="hero-nav-item">
+            <a class="hero-nav-link" href="#products">#products</a>
+          </li>
 
-    <!-- background img!!! -->
-    <div class="hero-bg-div">
-    <img  class="hero-bg-img" 
-          width="278px" 
-          height="228px" 
-          srcset="../img/hero/hero-img-1x.png 1x, ../img/hero/hero-img-2x.png 2x, "
-          src="../img/hero/hero-img-1x.png" 
-          alt="girl-with-latuck" >
+          <li class="hero-nav-item">
+            <a class="hero-nav-link" href="#basket">#basket</a>
+          </li>
 
-    <span class="hero-bg-figure"></span>
+          <li class="hero-nav-item">
+            <a class="hero-nav-link" href="#vegetables">#vegetables</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-
-    <!-- Navigation pannel -->
-
-    <nav class="hero-nav">
-      <ul class="hero-nav-list">
-        <li class="hero-nav-item">
-          <a class="hero-nav-link" href="#organic">#organic</a>
-        </li>
-
-        <li class="hero-nav-item">
-          <a class="hero-nav-link" href="#products">#products</a>
-        </li>
-
-        <li class="hero-nav-item">
-          <a class="hero-nav-link" href="#basket">#basket</a>
-        </li>
-
-        <li class="hero-nav-item">
-          <a class="hero-nav-link" href="#vegetables">#vegetables</a>
-        </li>
-      </ul>
-
-    </nav>
-
-
   </div>
 </section>
