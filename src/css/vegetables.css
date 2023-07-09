@@ -35,8 +35,6 @@
 .veg-img-cart {
   max-width: 299px;
 }
-.veg-menu-list {
-}
 .veg-menu-item {
   background-color: #eaf7e5;
   border-radius: 15px;
@@ -67,6 +65,43 @@
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.56px;
+}
+.btn-pos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.veg-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fc8a11;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  transform: rotate(-14deg);
+  transition: var(--transition);
+  gap: 4px;
+}
+.veg-btn-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  fill: #fff;
+}
+.veg-btn:hover,
+.veg-btn:focus,
+.veg-btn:active {
+  background-color: #a1c487;
 }
 
 @media screen and (min-width: 768px) {
@@ -126,6 +161,14 @@
 
   .veg-menu-price {
     padding-left: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+  }
+  .veg-btn {
+    margin-top: 40px;
+    width: 114px;
+    height: 114px;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.72px;
