@@ -83,6 +83,10 @@
   right: 0;
 }
 
+.call-btn:hover, .call-btn:focus {
+  animation: pulsate-fwd 0.5s ease-in-out infinite both;
+}
+
 .call-img-div {
   margin-bottom: 80px;
   border-radius: 40px;

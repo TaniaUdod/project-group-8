@@ -69,6 +69,7 @@
   letter-spacing: -1.6px;
   text-transform: uppercase;
   margin-bottom: 14px;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .hero-titel > span {
@@ -79,6 +80,7 @@
   font-size: 14px;
   margin-bottom: 20px;
   line-height: 1.2;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .hero-btn {
@@ -107,17 +109,26 @@
 .hero-btn:active {
   background-color: #eaf7e5;
   color: #a1c487;
+  animation: heartbeat 1.5s ease-in-out infinite both;
 }
+
 
 .hero-bg-div {
   display: flex;
   position: relative;
 }
+
+.hero-bg-div:hover, .hero-bg-div:focus {
+  animation: wobble-hor-bottom 1.2s both;
+}
+
+
 .hero-bg-img {
   z-index: 2;
   margin: 0 auto;
   margin-bottom: 16px;
 }
+
 .hero-bg-figure {
   position: absolute;
   left: 75px;
