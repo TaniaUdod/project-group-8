@@ -100,6 +100,7 @@
   height: 14px;
   flex-shrink: 0;
   fill: #fff;
+  transform: rotate(14deg);
 }
 
 .veg-btn:hover,
