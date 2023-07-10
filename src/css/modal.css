@@ -96,6 +96,69 @@
     letter-spacing: -0.28px;
 }
 
+.checkbox {
+    position: absolute;
+    margin-bottom: 1rem;
+    top: 14px;
+    right: 7px;
+}
+
+.checkbox-input {
+    appearance: none;
+    position: absolute;
+}
+
+.checkbox-label {
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.check-icon {
+    position: absolute;
+    top: 6px;
+    right: 14px;
+    fill: var(--A1C487);
+}
+
+.checkbox-label:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid var(--A1C487);
+    background-color: transparent;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: background-color .1s linear, border .1s linear;
+}
+
+.checkbox-label:after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #FAF3E7;
+    background-size: 12px 12px;
+    opacity: 0;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    z-index: 2;
+    transition: opacity .1s linear;
+}
+
+.checkbox-input:checked+.checkbox-label:before {
+    background-color: transparent;
+    border-color: #A1C487;
+}
+
+.checkbox-input:checked+.checkbox-label:after {
+    opacity: 1;
+}
+
 .product-img {
     position: absolute;
     bottom: 8px;
@@ -193,6 +256,10 @@
     .modal-product-item {
         width: 200px;
         height: 250px;
+    }
+
+    .modal-product-title {
+        padding-top: 40px;
     }
 
     .product-img {
