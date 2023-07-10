@@ -27,6 +27,9 @@
   line-height: 18px;
   letter-spacing: -0.56px;
 }
+.works1-img img {
+  width: 335px;
+}
 @media screen and (max-width: 767px) {
 }
 @media screen and (min-width: 768px) {
@@ -60,6 +63,9 @@
     line-height: 24px;
     letter-spacing: -0.72px;
   }
+  .works1-img img {
+    width: 310px;
+  }
 }
 @media screen and (max-width: 1279px) {
 }
@@ -85,5 +91,8 @@
   }
   .works1-list-item:last-child {
     width: 294px;
+  }
+  .works1-img img {
+    width: 410px;
   }
 }
