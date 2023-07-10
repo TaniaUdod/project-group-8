@@ -31,7 +31,8 @@
   padding: 36px 18px 22px 18px;
 }
 
-.veg-img:hover, .veg-img:focus {
+.veg-img:hover,
+.veg-img:focus {
   animation: pulsate-fwd 0.5s ease-in-out infinite both;
 }
 
@@ -39,11 +40,24 @@
   max-width: 299px;
 }
 .veg-menu-item {
-  background-color: #eaf7e5;
+  /* background-color: #eaf7e5; */
   border-radius: 15px;
   margin-bottom: 20px;
   padding-top: 40px;
   padding-bottom: 20px;
+
+  background-size: 300%;
+  background-image: linear-gradient(
+    to bottom left,
+    #faf3e7 0%,
+    #eaf7e5 50%,
+    #a1c487 100%
+  );
+  transition: 600ms ease;
+}
+.veg-menu-item:hover,
+.veg-menu-item:focus {
+  background-position: 100% 0;
 }
 .veg-menu-item.span {
   display: none;
@@ -107,7 +121,7 @@
 .veg-btn:focus,
 .veg-btn:active {
   background-color: #a1c487;
-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
 @media screen and (min-width: 768px) {
