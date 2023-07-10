@@ -9,8 +9,8 @@
 }
 
 .footer-image {
-  /* margin: 0 auto;
-  padding-top: 80px; */
+  margin: 0 auto;
+  /* padding-top: 80px; */
 }
 .footer-logo {
   margin-top: 20px;
@@ -48,11 +48,20 @@
   margin-top: 40px;
 }
 .footer-soc-item {
-  width: 40px;
-  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  /* width: 40px;
+  height: 40px; */
   padding: 8px;
   border-radius: 10px;
   border: 1px solid #141414;
+}
+.footer-soc-icon {
+  fill: rgba(20, 20, 20, 0.8);
 }
 .footer-adress {
 }
@@ -61,25 +70,26 @@
   margin-top: 40px;
   width: 143px;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal; */
+  /* font-weight: 400; */
   line-height: 18px;
   text-transform: uppercase;
 }
 .footer-adress-item {
   margin: 0 auto;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
   margin-top: 20px;
   width: 135px;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
+  /* font-style: normal; */
+  /* font-weight: 400; */
   line-height: 18px;
   letter-spacing: -0.28px;
 }
 
 /* MEDIA */
 @media screen and (min-width: 375px) {
+  
 }
 @media screen and (min-width: 768px) {
     /* .footer {
@@ -99,13 +109,20 @@
   .footer-container-right {
   }
   .footer-soc {
-    margin-top: 8px;
+    /* margin-top: 8px; */
+    margin-top: unset;
   }
   .footer-nav-item {
     /* padding-bottom: 80px; */
   }
+  .footer-adress-tel {
+    margin-top: 44px;
+    /* margin-top: 40px; */
+    text-align: left;
+    /* margin: 0 auto;  */
+  }
   .footer-adress-item {
-    /* text-align: left; */
+    text-align: left;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -124,12 +141,15 @@ display: flex;
 gap: 166px;
     }
     .footer-nav {
-      margin-top: 160px;
+      margin-top: unset;
+      align-self: center;
+      /* margin-top: 160px; */
     }
     .footer-adress {
       text-align: left;
     }
     .footer-container {
+      gap: 166px;
         display: inline-flex;
         /* width: 768px; */
         /* gap: 171px;
