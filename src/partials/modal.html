@@ -1,109 +1,166 @@
-<div class="modal-box backdrop is-hidden" data-modal>
-  <div class="modal container">
-    <button type="button" class="modal-close" data-modal-close> 
-      <svg class="icon-close" width="24" height="24">
-        <use href="/img/icons.svg#icon-close"></use>
-      </svg>
-    </button>
-    <p class="modal-title">
-       Your Order
-    </p>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <div class="modal-top">
+      <h2 class="modal-title">Your Order</h2>
+      <button type="button" class="modal-close" data-modal-close>
+        <svg class="icon-close" width="24" height="24">
+          <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+
     <div class="modal-product">
       <ul class="modal-product-list">
         <li class="modal-product-item">
-          <h4 class="modal-product-title">Cabbage Basket</h4>
+          <h3 class="modal-product-title">Cabbage Basket</h3>
           <p class="modal-product-text">Plant</p>
           <picture class="product-img">
-            <source media="(max-width: 767px)"
-              srcset="/img/product/cabbage-1.png 1x, /img/product/cabbage-2.png 2x" />
-            <source media="(max-width: 1279px)"
-              srcset="/img/product/cabbage-tab-1.png 1x, /img/product/cabbage-tab-2.png 2x" />
-            <source media="(min-width: 1280px)" srcset="
-                    /img/product/cabbage-desk-1.png 1x,
-                    /img/product/cabbage-desk-2.png 2x
-                  " />
-            <img class="product-img-cart" src="/img/product/cabbage-1.png" alt="cabbage" />
+            <source
+              media="(max-width: 767px)"
+              srcset="/img/modal/cabbage-1.png 1x, /img/modal/cabbage-2.png 2x"
+            />
+            <source
+              media="(max-width: 1279px)"
+              srcset="
+                /img/modal/cabbage-tab-1.png 1x,
+                /img/modal/cabbage-tab-2.png 2x
+              "
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                /img/modal/cabbage-desk-1.png 1x,
+                /img/modal/cabbage-desk-2.png 2x
+              "
+            />
+            <img
+              class="product-img-cart"
+              src="/img/product/cabbage-1.png"
+              alt="cabbage"
+              width="94"
+              height="78"
+            />
           </picture>
         </li>
         <li class="modal-product-item">
-          <h4 class="modal-product-title">Tomato Basket</h4>
+          <h3 class="modal-product-title">Tomato Basket</h3>
           <p class="modal-product-text">Plant</p>
           <picture class="product-img">
-            <source media="(max-width: 767px)"
-              srcset="/img/product/tomato-1.png 1x, /img/product/tomato-2.png 2x" />
-            <source media="(max-width: 1279px)"
-              srcset="/img/product/tomato-tab-1.png 1x, /img/product/tomato-tab-2.png 2x" />
-            <source media="(min-width: 1280px)" srcset="
-                    /img/product/tomato-desk-1.png 1x,
-                    /img/product/tomato-desk-2.png 2x
-                  " />
-            <img class="product-img-cart" src="/img/product/tomato-1.png" alt="tomato" />
+            <source
+              media="(max-width: 767px)"
+              srcset="/img/modal/tomato-1.png 1x, /img/modal/tomato-2.png 2x"
+            />
+            <source
+              media="(max-width: 1279px)"
+              srcset="
+                /img/modal/tomato-tab-1.png 1x,
+                /img/modal/tomato-tab-2.png 2x
+              "
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                /img/modal/tomato-desk-1.png 1x,
+                /img/modal/tomato-desk-2.png 2x
+              "
+            />
+            <img
+              class="product-img-cart"
+              src="/img/product/tomato-1.png"
+              alt="tomato"
+              width="94"
+              height="78"
+            />
           </picture>
         </li>
         <li class="modal-product-item">
-          <h4 class="modal-product-title">Vegetables Basket</h4>
+          <h3 class="modal-product-title">Vegetables Basket</h3>
           <p class="modal-product-text">Plant</p>
           <picture class="product-img">
-            <source media="(max-width: 767px)"
-              srcset="/img/product/vegetables-1.png 1x, /img/product/vegetables-2.png 2x" />
-            <source media="(max-width: 1279px)"
-              srcset="/img/product/vegetables-tab-1.png 1x, /img/product/vegetables-tab-2.png 2x" />
-            <source media="(min-width: 1280px)" srcset="
-                    /img/product/vegetables-desk-1.png 1x,
-                    /img/product/vegetables-desk-2.png 2x
-                  " />
-            <img class="product-img-cart" src="/img/product/vegetables-desk-1.png" alt="vegetables" width="100%"
-            height="100%"/>
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/modal/vegetables-1.png 1x,
+                /img/modal/vegetables-2.png 2x
+              "
+            />
+            <source
+              media="(max-width: 1279px)"
+              srcset="
+                /img/modal/vegetables-tab-1.png 1x,
+                /img/modal/vegetables-tab-2.png 2x
+              "
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                /img/modal/vegetables-desk-1.png 1x,
+                /img/modal/vegetables-desk-2.png 2x
+              "
+            />
+            <img
+              class="product-img-cart"
+              src="/img/product/vegetables-desk-1.png"
+              alt="vegetables"
+              width="94"
+              height="78"
+            />
           </picture>
         </li>
       </ul>
- 				<form class="modal-form-list">
-					<div class="modal-form">
-						<div class="input-wrap">
-							<input type="text" 
-								name="user-name"
-								id="user-name" 
-								class="modal-input" 
-								required placeholder="Enter full name..."
-								minlength="3">
-						</div>
-					</div>
-          <div class="modal-form">
-						<div class="input-wrap">
-							<input type="email" 
-								name="user-email" 
-								id="user-email" 
-								class="modal-input" 
-								required placeholder="Enter email...">
-						</div>
-					</div>
-					<div class="modal-form">
-						<div class="input-wrap">
-							<input type="tel" 
-								name="user-phone" 
-								id="user-phone" 
-								class="modal-input" 
-								placeholder="Enter card..">
-						</div>
-					</div>
-					<div class="modal-field">
-						<textarea
-						name="user-comment"
-						id="user-comment"
-						class="modal-textarea"
-						placeholder="Enter comments..."></textarea>
-					</div>
-					<button type="submit" class="modal-submit-button button">Submit</button>
-				</form>
-        <div>
-          <picture class="salat-girl">
-            <source media="(max-width: 1279px)"
-            srcset="../img/hero/tab-hero-img-1x.png 1x, ../img/hero/tab-hero-img-1x.png 2x," />
-          <source media="(min-width: 1280px)" srcset="../img/hero/hero-img-1x.png 1x, ../img/hero/hero-img-2x.png 2x," />
-            <img class="salat-girl-img" width="444px" height="413px" srcset="../img/hero/hero-img-1x.png 1x, ../img/hero/hero-img-2x.png 2x, " src="../img/hero/hero-img-1x.png" alt="girl-with-latuck">
-          </picture>
-        </div>
+
+      <form class="modal-form">
+        <input
+          type="text"
+          name="user-name"
+          class="modal-input"
+          required
+          placeholder="Enter full name..."
+          minlength="3"
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="modal-input"
+          required
+          placeholder="Enter email..."
+        />
+        <input
+          type="tel"
+          name="user-phone"
+          class="modal-input"
+          placeholder="Enter card.."
+        />
+        <textarea
+          name="user-comment"
+          class="modal-textarea"
+          placeholder="Enter comments..."
+        ></textarea>
+        <button type="submit" class="modal-submit-button">Submit</button>
+      </form>
+
+      <div>
+        <picture class="salat-girl">
+          <source
+            media="(max-width: 1279px)"
+            srcset="/img/modal/girl1-1x.png 1x, /img/modal/girl1-2x.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/img/modal/girl2-1x.png 1x, /img/modal/girl2-2x.png 2x"
+          />
+          <img
+            class="salat-girl-img"
+            srcset="/img/modal/girl1-1x.png 1x, /img/modal/girl1-2x.png 2x"
+            src="/img/modal/girl1-1x.png"
+            alt="girl-with-latuck"
+            width="444"
+            height="413"
+          />
+        </picture>
+      </div>
     </div>
   </div>
 </div>
-<script src="/js/modal.js"></script>
+
+<script src="../js/modal.js"></script>
