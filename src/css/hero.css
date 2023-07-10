@@ -154,10 +154,6 @@
   flex-wrap: wrap;
 }
 
-/* .hero-nav-item {
-  transition: var(--transition);
-} */
-
 .hero-nav-link {
   height: 28px;
   background-color: transparent;
@@ -193,7 +189,10 @@
     width: 54px;
     height: 54px;
   }
-
+  .hero-face-img-size{
+    width: 54px;
+    height: 54px;
+  }
   .hero-div-face-one {
     left: 35px;
   }
@@ -262,6 +261,11 @@
     justify-content: center;
   }
 
+  .hero-bg-img-size{
+    width: 466px;
+    height: 380px;
+  }
+/* 
   .hero-bg-img {
     margin-bottom: 8px;
   }
@@ -271,7 +275,7 @@
     top: -140px;
     width: 314.525px;
     height: 473.127px;
-  }
+  } */
 
   .hero-nav-link {
     font-size: 12px;
@@ -295,6 +299,10 @@
   .hero-face-list {
     margin-top: 132px;
     margin-bottom: 16px;
+  }
+  .hero-face-img-size{
+    width: 70px;
+    height: 70px;
   }
   .hero-titel {
     font-size: 64px;
@@ -331,17 +339,17 @@
   .hero-nav-item {
     height: 38px;
   }
-  .hero-bg-img {
+  
+  /* .hero-bg-img {
     margin-bottom: 64px;
     width: 422px;
-    height: 460px;
-  }
+    height: 460px;  } 
+
   .hero-bg-figure {
     left: 130px;
     top: 10px;
     width: 341.032px;
-    height: 513px;
-  }
+    height: 513px;  } */
 
   .hero-face-img-span {
     width: 70px;
@@ -349,21 +357,25 @@
   }
 
   .hero-div-face-one {
-    left: 40px;
+    left: 44px;
   }
 
   .hero-div-face-two {
-    left: 85px;
+    left: 89px;
   }
 
   .hero-div-face-three {
-    left: 125px;
+    left: 134px;
   }
 
   .hero-face-img-text {
     font-size: 24px;
     letter-spacing: -0.96px;
   }
+ .hero-bg-img-size {
+    width: 515px;
+    height: 423px;
+}
 
   .hero-text-reviews {
     font-size: 12px;
