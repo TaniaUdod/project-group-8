@@ -114,12 +114,12 @@
 .hero-bg-div {
   display: flex;
   position: relative;
+  justify-content: center;
 }
 
 .hero-bg-div:hover, .hero-bg-div:focus {
   animation: wobble-hor-bottom 1.2s both;
 }
-
 
 .hero-bg-img {
   z-index: 2;
@@ -178,11 +178,6 @@
 /* Tablett */
 
 @media screen and (min-width: 768px) {
-  /* .hero-container {
-    max-width: 1279px;
-    min-width: 768px;
-  } */
-
   .hero-face-img-span {
     width: 54px;
     height: 54px;
@@ -203,10 +198,6 @@
     left: 105px;
   }
 
-  /* .hero-div-for-desk {
-    margin: 0 auto;
-  } */
-
   .hero-face-img-text {
     font-size: 18px;
   }
@@ -217,10 +208,6 @@
     line-height: 1.25;
     letter-spacing: -0.4px;
   }
-  /* .hero-div-for-desk-second {
-    width: 656px;
-    margin: 0 auto;
-  } */
 
   .hero-face-list {
     margin-top: 64px;
@@ -244,7 +231,6 @@
   }
 
   .hero-btn {
-    display: flex;
     width: 114px;
     height: 114px;
     font-size: 24px;
@@ -256,24 +242,12 @@
 
   .hero-bg-div {
     margin-top: 16px;
-    justify-content: center;
   }
 
   .hero-bg-img-size{
     width: 466px;
     height: 380px;
   }
-/* 
-  .hero-bg-img {
-    margin-bottom: 8px;
-  }
-
-  .hero-bg-figure {
-    left: 165px;
-    top: -140px;
-    width: 314.525px;
-    height: 473.127px;
-  } */
 
   .hero-nav-link {
     font-size: 12px;
@@ -283,6 +257,7 @@
 
   .hero-nav {
     max-width: 214px;
+    margin-bottom: 32px;
   }
 }
 
@@ -296,7 +271,7 @@
 
   .hero-face-list {
     margin-top: 132px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
   }
   .hero-face-img-size{
     width: 70px;
@@ -312,7 +287,7 @@
     height: 132px;
     font-size: 28px;
     letter-spacing: -1.12px;
-    margin-bottom: 86px;
+    /* margin-bottom: 86px; */
   }
 
   .hero-div-for-desk {
@@ -320,11 +295,11 @@
   }
 
   .hero-div-for-desk-second {
-    width: 593px;
+    margin-left: auto;
   }
 
   .hero-bg-div {
-    margin-top: 134px;
+    margin-top: 127px;
   }
   .hero-nav {
     max-width: 266px;
@@ -337,17 +312,6 @@
   .hero-nav-item {
     height: 38px;
   }
-  
-  /* .hero-bg-img {
-    margin-bottom: 64px;
-    width: 422px;
-    height: 460px;  } 
-
-  .hero-bg-figure {
-    left: 130px;
-    top: 10px;
-    width: 341.032px;
-    height: 513px;  } */
 
   .hero-face-img-span {
     width: 70px;

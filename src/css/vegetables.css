@@ -183,9 +183,6 @@ animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
   .vegetables {
     margin-bottom: 124px;
   }
-  .veg-container {
-    max-width: 1245px;
-  }
   .veg-menu-item.span {
     display: block;
   }
