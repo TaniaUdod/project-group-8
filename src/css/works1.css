@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0 5px;
 }
 .works1-title {
   color: #141414;
@@ -38,7 +37,6 @@
     margin-top: 100px;
   }
   .works1-container {
-    padding: 0 17px;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px 8px;

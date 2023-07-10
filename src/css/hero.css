@@ -8,8 +8,6 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-  max-width: 365px;
-  min-width: 320px;
 }
 
 .hero-face-list {
@@ -149,9 +147,9 @@
 
 .hero-nav-list {
   display: flex;
-  gap: 4px;
-
+  justify-content: flex-end;
   flex-wrap: wrap;
+  gap: 4px;
 }
 
 .hero-nav-link {
@@ -180,10 +178,10 @@
 /* Tablett */
 
 @media screen and (min-width: 768px) {
-  .hero-container {
+  /* .hero-container {
     max-width: 1279px;
     min-width: 768px;
-  }
+  } */
 
   .hero-face-img-span {
     width: 54px;
@@ -205,9 +203,9 @@
     left: 105px;
   }
 
-  .hero-div-for-desk {
+  /* .hero-div-for-desk {
     margin: 0 auto;
-  }
+  } */
 
   .hero-face-img-text {
     font-size: 18px;
@@ -219,10 +217,10 @@
     line-height: 1.25;
     letter-spacing: -0.4px;
   }
-  .hero-div-for-desk-second {
+  /* .hero-div-for-desk-second {
     width: 656px;
     margin: 0 auto;
-  }
+  } */
 
   .hero-face-list {
     margin-top: 64px;

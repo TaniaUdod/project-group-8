@@ -1,5 +1,4 @@
 .works2 {
-  padding: 0 5px;
   margin-bottom: 80px;
 }
 .works2-container {
@@ -84,16 +83,12 @@
   width: 258px;
 }
 @media screen and (max-width: 767px) {
-  .works2-container {
-    max-width: 335px;
-  }
   .works2-img {
     align-self: center;
   }
 }
 @media screen and (min-width: 768px) {
   .works2 {
-    padding: 0 17px;
     margin-bottom: 101px;
   }
 

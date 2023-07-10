@@ -2,9 +2,7 @@
   background-color: #fff;
   margin-bottom: 80px;
 }
-.veg-container {
-  max-width: 365px;
-}
+
 .veg-title {
   min-width: 245px;
   text-align: center;
@@ -116,7 +114,6 @@ animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
     margin-bottom: 100px;
   }
   .veg-container {
-    max-width: 734px;
     justify-content: center;
     align-items: center;
     display: flex;
