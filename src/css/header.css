@@ -158,7 +158,7 @@
   .nav-page-link {
     font-size: 14px;
     line-height: 1.28;
-    transition: var(--transition);
+    transition: color var(--transition);
   }
 
   .nav-page-link:hover,

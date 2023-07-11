@@ -99,7 +99,7 @@
   flex-direction: column;
   justify-content: center;
   transform: rotate(-14deg);
-  transition: var(--transition);
+  transition: background-color var(--transition), color var(--transition);
 }
 
 .hero-btn:hover,
