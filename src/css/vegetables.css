@@ -129,7 +129,7 @@
   letter-spacing: -0.56px;
   text-transform: uppercase;
   transform: rotate(-14deg);
-  transition: var(--transition);
+  transition: background-color var(--transition);
   gap: 4px;
 }
 .veg-btn-icon {

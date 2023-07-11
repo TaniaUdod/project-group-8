@@ -183,6 +183,7 @@
     outline: transparent;
     padding: 14px 24px;
     margin-bottom: 14px;
+    transition: border var(--transition);
 }
 
 .modal-textarea {
@@ -198,12 +199,15 @@
     outline: transparent;
     resize: none;
     padding: 14px 24px;
-    transition: border-color var(--transition);
+    transition: border var(--transition);
     margin-bottom: 20px;
 }
 
-.modal-textarea:focus, .modal-input:focus {
-    border-color: #FC8A11;
+.modal-textarea:hover, 
+.modal-textarea:focus,
+.modal-input:hover,
+.modal-input:focus {
+    border: 2px solid #A1C487;
 }
 
 .modal-submit-button {
@@ -217,6 +221,11 @@
     text-transform: capitalize;
     background: #FC8A11;
     border: none;
+    transition: background-color var(--transition);
+}
+
+.modal-submit-button:hover, .modal-submit-button:focus {
+    background-color: #A1C487;
 }
 
 .salat-girl {

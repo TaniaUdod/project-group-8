@@ -28,6 +28,14 @@
   gap: 20px;
 }
 
+.footer-nav a {
+  transition: color var(--transition);
+}
+
+.footer-nav a:hover, .footer-nav a:focus {
+  color: #a1c487;
+}
+
 .footer-nav-item {
   font-size: 14px;
   line-height: 18px;
@@ -49,11 +57,18 @@
   height: 100%;
   padding: 8px;
   border-radius: 10px;
-  border: 1px solid #141414;
+  border: 1px solid rgba(20, 20, 20, 0.8);
+  color: rgba(20, 20, 20, 0.8);
+  transition: color var(--transition), border-color var(--transition);
 }
 
 .footer-soc-icon {
-  fill: rgba(20, 20, 20, 0.8);
+  fill: currentColor;
+}
+
+.footer-soc-item:hover, .footer-soc-item:focus {
+  color: rgba(161, 196, 135, 0.8);
+  border-color: rgba(161, 196, 135, 0.8);
 }
 
 .footer-adress-tel {
@@ -67,7 +82,7 @@
 .footer-adress-item {
   margin: 0 auto;
   margin-top: 20px;
-  width: 135px;
+  max-width: 135px;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.28px;

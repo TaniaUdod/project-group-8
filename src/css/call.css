@@ -54,6 +54,11 @@
   letter-spacing: -0.04em;
   padding: 15px 106px 15px 24px;
   outline: none;
+  transition: border var(--transition);
+}
+
+.call-input:hover, .call-input:focus {
+  border: 2px solid #A1C487;
 }
 
 .call-input::placeholder {
@@ -62,6 +67,7 @@
   line-height: 1.29;
   letter-spacing: -0.04em;
 }
+
 .call-btn {
   color: #ffffff;
   font-family: inherit;
@@ -79,9 +85,11 @@
   position: absolute;
   z-index: 2;
   right: 0;
+  transition: background-color var(--transition), animation var(--transition);
 }
 
 .call-btn:hover, .call-btn:focus {
+  background-color: #A1C487;
   animation: pulsate-fwd 0.5s ease-in-out infinite both;
 }
 
