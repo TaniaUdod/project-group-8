@@ -82,7 +82,30 @@
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.56px;
+  margin-right: 10px;
 }
+.number {
+  border-color: #a1c487;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+}
+.btn-add {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+  width: 130px;
+  height: 40px;
+  border-radius: 20%;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-color: #a1c487;
+}
+
 .btn-pos {
   display: flex;
   justify-content: center;
