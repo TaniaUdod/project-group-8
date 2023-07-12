@@ -8,8 +8,6 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-  max-width: 365px;
-  min-width: 320px;
 }
 
 .hero-face-list {
@@ -50,16 +48,19 @@
 .hero-div-face-one {
   position: absolute;
   left: 28px;
+  top: 0;
 }
 
 .hero-div-face-two {
   position: absolute;
   left: 57px;
+  top: 0;
 }
 
 .hero-div-face-three {
   position: absolute;
   left: 85px;
+  top: 0;
 }
 
 .hero-titel {
@@ -69,6 +70,7 @@
   letter-spacing: -1.6px;
   text-transform: uppercase;
   margin-bottom: 14px;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .hero-titel > span {
@@ -79,6 +81,7 @@
   font-size: 14px;
   margin-bottom: 20px;
   line-height: 1.2;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .hero-btn {
@@ -99,7 +102,7 @@
   flex-direction: column;
   justify-content: center;
   transform: rotate(-14deg);
-  transition: var(--transition);
+  transition: background-color var(--transition), color var(--transition);
 }
 
 .hero-btn:hover,
@@ -107,17 +110,26 @@
 .hero-btn:active {
   background-color: #eaf7e5;
   color: #a1c487;
+  animation: heartbeat 1.5s ease-in-out infinite both;
 }
+
 
 .hero-bg-div {
   display: flex;
   position: relative;
+  justify-content: center;
 }
+
+.hero-bg-div:hover, .hero-bg-div:focus {
+  animation: wobble-hor-bottom 1.2s both;
+}
+
 .hero-bg-img {
   z-index: 2;
   margin: 0 auto;
   margin-bottom: 16px;
 }
+
 .hero-bg-figure {
   position: absolute;
   left: 75px;
@@ -138,14 +150,10 @@
 
 .hero-nav-list {
   display: flex;
-  gap: 4px;
-
+  justify-content: flex-end;
   flex-wrap: wrap;
+  gap: 4px;
 }
-
-/* .hero-nav-item {
-  transition: var(--transition);
-} */
 
 .hero-nav-link {
   height: 28px;
@@ -173,16 +181,14 @@
 /* Tablett */
 
 @media screen and (min-width: 768px) {
-  .hero-container {
-    max-width: 1279px;
-    min-width: 768px;
-  }
-
   .hero-face-img-span {
     width: 54px;
     height: 54px;
   }
-
+  .hero-face-img-size{
+    width: 54px;
+    height: 54px;
+  }
   .hero-div-face-one {
     left: 35px;
   }
@@ -195,10 +201,6 @@
     left: 105px;
   }
 
-  .hero-div-for-desk {
-    margin: 0 auto;
-  }
-
   .hero-face-img-text {
     font-size: 18px;
   }
@@ -208,10 +210,6 @@
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: -0.4px;
-  }
-  .hero-div-for-desk-second {
-    width: 656px;
-    margin: 0 auto;
   }
 
   .hero-face-list {
@@ -236,7 +234,6 @@
   }
 
   .hero-btn {
-    display: flex;
     width: 114px;
     height: 114px;
     font-size: 24px;
@@ -248,18 +245,11 @@
 
   .hero-bg-div {
     margin-top: 16px;
-    justify-content: center;
   }
 
-  .hero-bg-img {
-    margin-bottom: 8px;
-  }
-
-  .hero-bg-figure {
-    left: 165px;
-    top: -140px;
-    width: 314.525px;
-    height: 473.127px;
+  .hero-bg-img-size{
+    width: 466px;
+    height: 380px;
   }
 
   .hero-nav-link {
@@ -270,6 +260,7 @@
 
   .hero-nav {
     max-width: 214px;
+    margin-bottom: 32px;
   }
 }
 
@@ -283,7 +274,11 @@
 
   .hero-face-list {
     margin-top: 132px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+  }
+  .hero-face-img-size{
+    width: 70px;
+    height: 70px;
   }
   .hero-titel {
     font-size: 64px;
@@ -295,7 +290,7 @@
     height: 132px;
     font-size: 28px;
     letter-spacing: -1.12px;
-    margin-bottom: 86px;
+    /* margin-bottom: 86px; */
   }
 
   .hero-div-for-desk {
@@ -303,11 +298,11 @@
   }
 
   .hero-div-for-desk-second {
-    width: 593px;
+    margin-left: auto;
   }
 
   .hero-bg-div {
-    margin-top: 134px;
+    margin-top: 127px;
   }
   .hero-nav {
     max-width: 266px;
@@ -320,17 +315,6 @@
   .hero-nav-item {
     height: 38px;
   }
-  .hero-bg-img {
-    margin-bottom: 64px;
-    width: 422px;
-    height: 460px;
-  }
-  .hero-bg-figure {
-    left: 130px;
-    top: 10px;
-    width: 341.032px;
-    height: 513px;
-  }
 
   .hero-face-img-span {
     width: 70px;
@@ -338,21 +322,25 @@
   }
 
   .hero-div-face-one {
-    left: 40px;
+    left: 44px;
   }
 
   .hero-div-face-two {
-    left: 85px;
+    left: 89px;
   }
 
   .hero-div-face-three {
-    left: 125px;
+    left: 134px;
   }
 
   .hero-face-img-text {
     font-size: 24px;
     letter-spacing: -0.96px;
   }
+ .hero-bg-img-size {
+    width: 515px;
+    height: 423px;
+}
 
   .hero-text-reviews {
     font-size: 12px;

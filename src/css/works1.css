@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0 5px;
 }
 .works1-title {
   color: #141414;
@@ -27,6 +26,9 @@
   line-height: 18px;
   letter-spacing: -0.56px;
 }
+.works1-img img {
+  width: 335px;
+}
 @media screen and (max-width: 767px) {
 }
 @media screen and (min-width: 768px) {
@@ -35,7 +37,6 @@
     margin-top: 100px;
   }
   .works1-container {
-    padding: 0 17px;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px 8px;
@@ -59,6 +60,9 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.72px;
+  }
+  .works1-img img {
+    width: 310px;
   }
 }
 @media screen and (max-width: 1279px) {
@@ -85,5 +89,8 @@
   }
   .works1-list-item:last-child {
     width: 294px;
+  }
+  .works1-img img {
+    width: 410px;
   }
 }

@@ -1,7 +1,195 @@
-<div class="modal">
-  <p>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam expedita
-    molestiae illum rem ut consequatur adipisci dignissimos labore libero iusto
-    numquam saepe odit quibusdam commodi assumenda, ab magni at tempore.
-  </p>
+<div class="backdrop is-hidden" data-modal data-order>
+  <div class="modal">
+    <div class="modal-top">
+      <h2 class="modal-title">Your Order</h2>
+      <button
+        type="button"
+        class="modal-close"
+        data-modal-close
+        data-order-close
+      >
+        <svg class="icon-close" width="24" height="24">
+          <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="modal-product">
+      <ul class="modal-product-list">
+        <li class="modal-product-item">
+          <div class="checkbox">
+            <input class="checkbox-input" type="checkbox" id="checkbox1" />
+            <label class="checkbox-label" for="checkbox1">
+              <svg class="check-icon" width="6" height="6">
+                <use href="/img/icons.svg#icon-pick"></use>
+              </svg>
+            </label>
+          </div>
+          <h3 class="modal-product-title">Cabbage Basket</h3>
+          <p class="modal-product-text">Plant</p>
+          <picture class="product-img">
+            <source
+              media="(max-width: 767px)"
+              srcset="/img/modal/cabbage-1.png 1x, /img/modal/cabbage-2.png 2x"
+            />
+            <source
+              media="(max-width: 1279px)"
+              srcset="
+                /img/modal/cabbage-tab-1.png 1x,
+                /img/modal/cabbage-tab-2.png 2x
+              "
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                /img/modal/cabbage-desk-1.png 1x,
+                /img/modal/cabbage-desk-2.png 2x
+              "
+            />
+            <img
+              class="product-img-cart"
+              src="/img/product/cabbage-1.png"
+              alt="cabbage"
+              width="94"
+              height="78"
+            />
+          </picture>
+        </li>
+        <li class="modal-product-item">
+          <div class="checkbox">
+            <input class="checkbox-input" type="checkbox" id="checkbox2" />
+            <label class="checkbox-label" for="checkbox2">
+              <svg class="check-icon" width="6" height="6">
+                <use href="/img/icons.svg#icon-pick"></use>
+              </svg>
+            </label>
+          </div>
+          <h3 class="modal-product-title">Tomato Basket</h3>
+          <p class="modal-product-text">Plant</p>
+          <picture class="product-img">
+            <source
+              media="(max-width: 767px)"
+              srcset="/img/modal/tomato-1.png 1x, /img/modal/tomato-2.png 2x"
+            />
+            <source
+              media="(max-width: 1279px)"
+              srcset="
+                /img/modal/tomato-tab-1.png 1x,
+                /img/modal/tomato-tab-2.png 2x
+              "
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                /img/modal/tomato-desk-1.png 1x,
+                /img/modal/tomato-desk-2.png 2x
+              "
+            />
+            <img
+              class="product-img-cart"
+              src="/img/product/tomato-1.png"
+              alt="tomato"
+              width="94"
+              height="78"
+            />
+          </picture>
+        </li>
+        <li class="modal-product-item">
+          <div class="checkbox">
+            <input class="checkbox-input" type="checkbox" id="checkbox3" />
+            <label class="checkbox-label" for="checkbox3">
+              <svg class="check-icon" width="6" height="6">
+                <use href="/img/icons.svg#icon-pick"></use>
+              </svg>
+            </label>
+          </div>
+          <h3 class="modal-product-title">Vegetables Basket</h3>
+          <p class="modal-product-text">Plant</p>
+          <picture class="product-img">
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /img/modal/vegetables-1.png 1x,
+                /img/modal/vegetables-2.png 2x
+              "
+            />
+            <source
+              media="(max-width: 1279px)"
+              srcset="
+                /img/modal/vegetables-tab-1.png 1x,
+                /img/modal/vegetables-tab-2.png 2x
+              "
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                /img/modal/vegetables-desk-1.png 1x,
+                /img/modal/vegetables-desk-2.png 2x
+              "
+            />
+            <img
+              class="product-img-cart"
+              src="/img/product/vegetables-desk-1.png"
+              alt="vegetables"
+              width="94"
+              height="78"
+            />
+          </picture>
+        </li>
+      </ul>
+
+      <form class="modal-form">
+        <input
+          type="text"
+          name="user-name"
+          class="modal-input"
+          required
+          placeholder="Enter full name..."
+          minlength="3"
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="modal-input"
+          required
+          placeholder="Enter email..."
+        />
+        <input
+          type="tel"
+          name="user-phone"
+          class="modal-input"
+          placeholder="Enter card.."
+        />
+        <textarea
+          name="user-comment"
+          class="modal-textarea"
+          placeholder="Enter comments..."
+        ></textarea>
+        <button type="submit" class="modal-submit-button">Submit</button>
+      </form>
+
+      <div>
+        <picture class="salat-girl">
+          <source
+            media="(max-width: 1279px)"
+            srcset="/img/modal/girl1-1x.png 1x, /img/modal/girl1-2x.png 2x"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/img/modal/girl2-1x.png 1x, /img/modal/girl2-2x.png 2x"
+          />
+          <img
+            class="salat-girl-img"
+            srcset="/img/modal/girl1-1x.png 1x, /img/modal/girl1-2x.png 2x"
+            src="/img/modal/girl1-1x.png"
+            alt="girl-with-latuck"
+            width="444"
+            height="413"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script src="../js/modal.js"></script>
