@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/project-group-8/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Online shop organic vegetables" />
     <title>Veggieboost</title>
     <link
       rel="stylesheet"
@@ -14,8 +15,8 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
-    <script type="module" crossorigin src="/project-group-8/assets/index-6ac1608a.js"></script>
-    <link rel="stylesheet" href="/project-group-8/assets/index-b6eb506e.css">
+    <script type="module" crossorigin src="/project-group-8/assets/index-48c3f30d.js"></script>
+    <link rel="stylesheet" href="/project-group-8/assets/index-a7005fb5.css">
   </head>
   <body>
     <header>
@@ -84,8 +85,8 @@
         <a class="nav-page-link" href="#contacts">Contacts</a>
       </li>
       <li class="mob-menu-item">
-        <button type="button" class="mob-menu-btm">
-          <svg class="menu-btm-icon" width="24" height="24" data-modal-open>
+        <button type="button" class="mob-menu-btm" data-modal-open>
+          <svg class="menu-btm-icon" width="24" height="24">
             <use href="/project-group-8/assets/icons-4db33f13.svg#icon-shopping-cart"></use>
           </svg>
         </button>
@@ -94,7 +95,7 @@
   </div>
 </div>
 
-<script src="../js/mobile-menu.js"></script>
+<!-- <script src="../js/mobile-menu.js"></script> -->
 
     </header>
     <main>
@@ -230,7 +231,7 @@
           </li>
 
           <li class="hero-nav-item">
-            <a class="hero-nav-link" href="#basket">#basket</a>
+            <a class="hero-nav-link" href="#basket" data-modal-open>#basket</a>
           </li>
 
           <li class="hero-nav-item">
@@ -727,7 +728,7 @@
         </ul>
       </div>
       <div class="btn-pos">
-        <button type="button" class="veg-btn" data-order-open>
+        <button type="button" class="veg-btn" data-modal-open>
           <svg class="veg-btn-icon" width="14" height="14">
             <use href="/project-group-8/assets/icons-4db33f13.svg#icon-arrow"></use>
           </svg>
@@ -737,8 +738,6 @@
     </div>
   </section>
 </div>
-
-<script src="../js/order.js"></script>
 
       <div data-aos="fade-up" data-aos-duration="1000">
   <section class="call">
@@ -882,7 +881,7 @@
   </div>
 </section>
 
-<script src="../js/slider.js"></script>
+<!-- <script src="../js/slider.js"></script> -->
 
     </main>
     <footer>
@@ -982,16 +981,11 @@
 </section>
 
     </footer>
-    <div class="backdrop is-hidden" data-modal data-order>
+    <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <div class="modal-top">
       <h2 class="modal-title">Your Order</h2>
-      <button
-        type="button"
-        class="modal-close"
-        data-modal-close
-        data-order-close
-      >
+      <button type="button" class="modal-close" data-modal-close>
         <svg class="icon-close" width="24" height="24">
           <use href="/project-group-8/assets/icons-4db33f13.svg#icon-close"></use>
         </svg>
@@ -1155,7 +1149,7 @@
   </div>
 </div>
 
-<script src="../js/modal.js"></script>
+<!-- <script src="../js/modal.js"></script> -->
 
 
     
