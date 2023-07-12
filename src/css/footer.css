@@ -49,6 +49,11 @@
   margin-top: 40px;
 }
 
+.footer-soc-list {
+  width: 40px;
+  height: 40px;
+}
+
 .footer-soc-item {
   display: flex;
   justify-content: center;
@@ -70,9 +75,6 @@
   color: rgba(161, 196, 135, 0.8);
   border-color: rgba(161, 196, 135, 0.8);
 }
-.footer-adress {
- 
-}
 
 .footer-adress-tel {
   display: flex;
@@ -86,6 +88,7 @@
 
 .footer-adress-item {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
   margin-top: 20px;
@@ -101,7 +104,6 @@
 }
 @media screen and (min-width: 768px) {
   .footer-container {
-    display: flex;
     display: inline-flex;
     gap: 171px;
   }
@@ -109,6 +111,11 @@
   .footer-soc {
     margin-top: unset;
     justify-content: flex-start;
+  }
+
+  .footer-soc-list {
+    width: 44px;
+    height: 44px;
   }
 
   .footer-adress-tel {
@@ -119,16 +126,19 @@
   }
 
   .footer-adress-item {
-      text-align: left;
-      margin-left: 0;
-      font-size: 18px;
-      line-height: 24px;
-      letter-spacing: -0.36px;
-      width: 173px;
+    justify-content: flex-start;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    max-width: 173px;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .footer-container {
+    gap: 166px;
+  }
+  
   .footer-team{
     display: flex;
     gap: 166px;
@@ -145,10 +155,5 @@
 
   .footer-adress {
     text-align: left;
-  }
-
-  .footer-container {
-    gap: 166px;
-    display: inline-flex;
   }
 }
