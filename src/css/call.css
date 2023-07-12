@@ -1,6 +1,5 @@
 .call-container {
   min-width: 320px;
-  padding: 0 20px;
   padding-bottom: 80px;
   display: flex;
   flex-direction: column;
@@ -117,7 +116,6 @@
 @media screen and (min-width: 768px) {
   .call-container {
     min-width: 768px;
-    padding: 0 32px;
     padding-bottom: 173px;
     gap: 80px;
   }
