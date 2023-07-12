@@ -70,8 +70,13 @@
   color: rgba(161, 196, 135, 0.8);
   border-color: rgba(161, 196, 135, 0.8);
 }
+.footer-adress {
+ 
+}
 
 .footer-adress-tel {
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   margin-top: 40px;
   font-size: 14px;
@@ -80,6 +85,8 @@
 }
 
 .footer-adress-item {
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   margin-top: 20px;
   max-width: 135px;
