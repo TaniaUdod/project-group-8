@@ -48,16 +48,19 @@
 .hero-div-face-one {
   position: absolute;
   left: 28px;
+  top: 0;
 }
 
 .hero-div-face-two {
   position: absolute;
   left: 57px;
+  top: 0;
 }
 
 .hero-div-face-three {
   position: absolute;
   left: 85px;
+  top: 0;
 }
 
 .hero-titel {
