@@ -6,7 +6,7 @@
 .veg-title {
   min-width: 245px;
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
@@ -17,7 +17,7 @@
 .veg-text {
   max-width: 335px;
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
