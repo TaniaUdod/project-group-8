@@ -1,5 +1,5 @@
 .works2 {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .works2-container {
   background-image: radial-gradient(
@@ -61,7 +61,8 @@
   letter-spacing: -0.72px;
 }
 
-.works2-list-number:hover, .works2-list-number:focus {
+.works2-list-number:hover,
+.works2-list-number:focus {
   animation: pulsate-fwd 0.5s ease-in-out infinite both;
 }
 
@@ -89,7 +90,7 @@
 }
 @media screen and (min-width: 768px) {
   .works2 {
-    margin-bottom: 101px;
+    padding-bottom: 101px;
   }
 
   .works2-container {
@@ -101,7 +102,7 @@
     border-radius: 80px;
   }
   .works2-list-item {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
   .works2-list-item:last-child {
     margin-bottom: 0;
@@ -134,7 +135,7 @@
 }
 @media screen and (min-width: 1280px) {
   .works2 {
-    margin-bottom: 124px;
+    padding-bottom: 124px;
   }
   .works2-container {
     width: 1216px;
@@ -152,7 +153,6 @@
     width: 512px;
   }
   .works2-list-item {
-    margin-bottom: 28px;
     max-width: 349px;
   }
   .works2-list-text {
