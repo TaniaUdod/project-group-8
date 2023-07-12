@@ -63,7 +63,7 @@
     margin-top: -22px;
     padding: 8px;
     color: #FFFFFF;
-    background-color: #FC8A11;
+    background-color: rgba(252, 138, 17, 0.6);
     font-weight: bold;
     font-size: 16px;
     transition: 0.6s ease;
@@ -79,7 +79,7 @@
 .reviews-slider .previous:focus,
 .reviews-slider .next:hover,
 .reviews-slider .next:focus {
-    background-color: #A1C487;
+    background-color: #FC8A11;
 }
 
 .reviews-slider .reviews-card {
