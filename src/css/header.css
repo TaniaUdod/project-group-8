@@ -37,6 +37,14 @@
 .header-btm-icon {
   stroke: #141414;
   fill: transparent;
+  transition: transform 0.3s ease;
+}
+
+.header-btm-icon:hover,
+.header-btm-icon:focus {
+  stroke: #a1c487;
+  transform: scale(1.2);
+  transition: var(--transition);
 }
 
 .header-menu-open {
@@ -180,7 +188,7 @@
     border: none;
     background-color: transparent;
   }
-
+ 
   .header-menu-open {
     display: none;
   }
