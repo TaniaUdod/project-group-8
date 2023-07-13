@@ -3,7 +3,7 @@
     openMenuBtn: document.querySelector('[data-menu-open]'),
     closeMenuBtn: document.querySelector('[data-menu-close]'),
     menu: document.querySelector('[data-menu]'),
-    menuLinks: document.querySelectorAll('.mob-menu-item a')
+    menuLinks: document.querySelectorAll('.mob-menu-item a'),
   };
 
   refs.openMenuBtn.addEventListener('click', toggleMenu);
@@ -18,6 +18,4 @@
       toggleMenu();
     });
   });
-  
 })();
-
