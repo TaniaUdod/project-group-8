@@ -16,8 +16,6 @@
 .reviews-card {
     background-color: #FAF3E7;
     border-radius: 20px;
-    /* max-width: 260px; */
-    /* max-height: 370px; */
     margin: 0 auto;
     padding: 34px;
 }
@@ -64,35 +62,6 @@
     background-color: rgba(252, 138, 17, 0.6);
 }
 
-
-/* .reviews-slider .previous,
-.reviews-slider .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 8px;
-    color: #FFFFFF;
-    background-color: rgba(252, 138, 17, 0.6);
-    font-weight: bold;
-    font-size: 16px;
-    transition: 0.6s ease;
-    border-radius: 5px;
-} */
-
-/* .reviews-slider .next {
-    right: 0;
-    border-radius: 5px;
-} */
-
-/* .reviews-slider .previous:hover,
-.reviews-slider .previous:focus,
-.reviews-slider .next:hover,
-.reviews-slider .next:focus {
-    background-color: #FC8A11;
-} */
-
 .reviews-slider .reviews-card {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -119,8 +88,6 @@
     }
     
     .reviews-card {
-        /* max-width: 600px; */
-        /* height: 332px; */
         padding: 36px;
     }
 
@@ -149,11 +116,6 @@
     .swiper-button-prev:after {
         font-size: 45px;
     }
-
-    /* .reviews-slider .previous,
-    .reviews-slider .next {
-        padding: 12px;
-    } */
 }
 
 @media screen and (min-width: 1280px) {
@@ -169,8 +131,6 @@
     }
     
     .reviews-card {
-        /* max-width: 1050px; */
-        /* height: 380px; */
         padding: 30px;
     }
     
@@ -195,8 +155,4 @@
     .swiper-button-prev:after {
         font-size: 60px;
     }
-    /* .reviews-slider .previous,
-    .reviews-slider .next {
-        padding: 16px;
-    } */
 }
